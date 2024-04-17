@@ -1,0 +1,11 @@
+.authNavbarContainer {
+    position: fixed;
+    top: -80px;
+    left: 0;
+    right: 0;
+    transition: top 0.3s ease;
+    z-index: 999; 
+}
+.authNavbarContainer:hover {
+    top: 0;
+}
